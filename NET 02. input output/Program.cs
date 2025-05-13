@@ -54,10 +54,3 @@
 //    Console.WriteLine($"key char = {key.KeyChar}");
 //}
 
-//salam
-//using System.Net.NetworkInformation;
-
-//
-//
-//
-//NetworkAddressChangedEventHandler sen men 
