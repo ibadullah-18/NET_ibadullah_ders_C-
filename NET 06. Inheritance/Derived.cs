@@ -19,7 +19,12 @@ public class Derived : Base
 
     public void DerivedFoo()
     {
-        base.Foo(); // base - ata sinifin metoduna gidecek
+        Foo(); // base - ata sinifin metoduna gidecek
+    }
+    // new -> method hidding
+    public void Foo()
+    {
+        Console.WriteLine("Derived class Foo()");
     }
 
 }
