@@ -29,27 +29,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 03. String", "NET 03. S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 03. String Suppet", "NET 03. String Suppet\NET 03. String Suppet.csproj", "{815971D8-610A-44ED-B642-D426DAA0EB50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 03. ref, out, in", "NET 03. ref, out, in\NET 03. ref, out, in.csproj", "{84AAF64B-4AF9-4B60-B67A-A79209BC0DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 03. ref, out, in", "NET 03. ref, out, in\NET 03. ref, out, in.csproj", "{84AAF64B-4AF9-4B60-B67A-A79209BC0DE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 04", "NET 04", "{602EA2DE-68AF-4A41-8C6A-CAB9F1F7A4C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 04.  Params", "NET 04.  Params\NET 04.  Params.csproj", "{E3BA3A09-43FA-4E8C-942A-8B5BD8CBE10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 04.  Params", "NET 04.  Params\NET 04.  Params.csproj", "{E3BA3A09-43FA-4E8C-942A-8B5BD8CBE10D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 04. class , this, access modifiers", "NET 04. class , this, access modifiers\NET 04. class , this, access modifiers.csproj", "{A7A9B508-2D01-444A-B683-7A8096555842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 04. class , this, access modifiers", "NET 04. class , this, access modifiers\NET 04. class , this, access modifiers.csproj", "{A7A9B508-2D01-444A-B683-7A8096555842}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 05", "NET 05", "{804E29FE-F45E-4BF2-9434-05F4861A887D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 05. Tuple, deconstruct", "NET 05. Tuple, deconstruct\NET 05. Tuple, deconstruct.csproj", "{61D8753B-899E-4F9D-B28F-F5B103613105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 05. Tuple, deconstruct", "NET 05. Tuple, deconstruct\NET 05. Tuple, deconstruct.csproj", "{61D8753B-899E-4F9D-B28F-F5B103613105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 05. Null conditional, Null coalescing, Nullable", "NET 05. Null conditional, Null coalescing, Nullable.csproj\NET 05. Null conditional, Null coalescing, Nullable.csproj", "{7ABAF562-8930-4F01-ABB6-DD2D2C2FA92A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 05. Null conditional, Null coalescing, Nullable", "NET 05. Null conditional, Null coalescing, Nullable.csproj\NET 05. Null conditional, Null coalescing, Nullable.csproj", "{7ABAF562-8930-4F01-ABB6-DD2D2C2FA92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 05. Operator overloading", "NET 05. Operator overloading\NET 05. Operator overloading.csproj", "{059C2BEE-E3E5-48D1-9458-75E969D09CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 05. Operator overloading", "NET 05. Operator overloading\NET 05. Operator overloading.csproj", "{059C2BEE-E3E5-48D1-9458-75E969D09CE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 06", "NET 06", "{AC1A6915-7E85-4C2C-A6FC-90B5DB2D96C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 06. Indexer", "NET 06. Indexer\NET 06. Indexer.csproj", "{CF3B64D2-2E02-4C82-8B91-91ACE4060ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 06. Indexer", "NET 06. Indexer\NET 06. Indexer.csproj", "{CF3B64D2-2E02-4C82-8B91-91ACE4060ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 06. Inheritance", "NET 06. Inheritance\NET 06. Inheritance.csproj", "{3A51C75D-146B-43CD-9535-B57A38B42795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 06. Inheritance", "NET 06. Inheritance\NET 06. Inheritance.csproj", "{3A51C75D-146B-43CD-9535-B57A38B42795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 07", "NET 07", "{4E3254C5-D4FF-467E-83FE-86A17CBF1E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 07 Polimorphism", "NET 07 Polimorphism\NET 07 Polimorphism.csproj", "{58041398-5187-4BF0-AD88-6E7B6743A0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 07.  Abstract class", "NET 07.  Abstract class\NET 07.  Abstract class.csproj", "{CD96A156-CF49-420A-A114-86F322445436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 07. Interface", "NET 07. Interface\NET 07. Interface.csproj", "{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +137,18 @@ Global
 		{3A51C75D-146B-43CD-9535-B57A38B42795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A51C75D-146B-43CD-9535-B57A38B42795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A51C75D-146B-43CD-9535-B57A38B42795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58041398-5187-4BF0-AD88-6E7B6743A0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58041398-5187-4BF0-AD88-6E7B6743A0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58041398-5187-4BF0-AD88-6E7B6743A0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58041398-5187-4BF0-AD88-6E7B6743A0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD96A156-CF49-420A-A114-86F322445436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD96A156-CF49-420A-A114-86F322445436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD96A156-CF49-420A-A114-86F322445436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD96A156-CF49-420A-A114-86F322445436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +172,9 @@ Global
 		{059C2BEE-E3E5-48D1-9458-75E969D09CE3} = {804E29FE-F45E-4BF2-9434-05F4861A887D}
 		{CF3B64D2-2E02-4C82-8B91-91ACE4060ADD} = {AC1A6915-7E85-4C2C-A6FC-90B5DB2D96C2}
 		{3A51C75D-146B-43CD-9535-B57A38B42795} = {AC1A6915-7E85-4C2C-A6FC-90B5DB2D96C2}
+		{58041398-5187-4BF0-AD88-6E7B6743A0F3} = {4E3254C5-D4FF-467E-83FE-86A17CBF1E02}
+		{CD96A156-CF49-420A-A114-86F322445436} = {4E3254C5-D4FF-467E-83FE-86A17CBF1E02}
+		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6} = {4E3254C5-D4FF-467E-83FE-86A17CBF1E02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {984A0467-54D1-48D3-890C-C809A8B2BB4E}
