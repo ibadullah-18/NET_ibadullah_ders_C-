@@ -1,5 +1,5 @@
 ﻿// Standard interface
-class Student : IEnumerable
+class Student
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
@@ -25,9 +25,5 @@ class Student : IEnumerable
             Studen Cart Series: {StudentCard}
             """;  
     }
-
-internal interface IEnumerable
-{
-}
 
 }
