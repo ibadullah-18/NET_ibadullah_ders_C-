@@ -63,6 +63,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 08", "NET 08", "{1434DC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 08.  Standard Interface", "NET 08.  Standard Interface\NET 08.  Standard Interface.csproj", "{5CE7EDA8-E2A1-43F4-892F-5E42E67244F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 09", "NET 09", "{9A4ABEAC-F83A-47F3-8ED6-99160F48465C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 08. delegates, events", "NET 08. delegates, events\NET 08. delegates, events.csproj", "{A96516C0-DB6F-4166-B30D-0859C5CEB4FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +161,10 @@ Global
 		{5CE7EDA8-E2A1-43F4-892F-5E42E67244F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE7EDA8-E2A1-43F4-892F-5E42E67244F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE7EDA8-E2A1-43F4-892F-5E42E67244F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96516C0-DB6F-4166-B30D-0859C5CEB4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96516C0-DB6F-4166-B30D-0859C5CEB4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96516C0-DB6F-4166-B30D-0859C5CEB4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96516C0-DB6F-4166-B30D-0859C5CEB4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +192,7 @@ Global
 		{CD96A156-CF49-420A-A114-86F322445436} = {4E3254C5-D4FF-467E-83FE-86A17CBF1E02}
 		{7AAEAA88-4FF2-4399-B63F-F4343E5DBBF6} = {4E3254C5-D4FF-467E-83FE-86A17CBF1E02}
 		{5CE7EDA8-E2A1-43F4-892F-5E42E67244F5} = {1434DCD6-186B-4BCC-BE60-E54C9FDD8507}
+		{A96516C0-DB6F-4166-B30D-0859C5CEB4FC} = {9A4ABEAC-F83A-47F3-8ED6-99160F48465C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {984A0467-54D1-48D3-890C-C809A8B2BB4E}
