@@ -17,6 +17,8 @@ foreach (var student in students)
 {
     teacher.ExamEvent += student.Exam;
 }
+
+
 teacher.Exam("Sayt yazmaq");
 public delegate void ExamDelegate(string task);
 
