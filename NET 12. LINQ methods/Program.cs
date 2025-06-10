@@ -351,3 +351,22 @@ List<Student> students = [
 //var anyResult = students.Any(s => s.Age < 18); // Herhangi bir telebenin Age si 18 den kicikse true qaytarir, yoxsa false qaytarir
 //Console.WriteLine(anyResult);
 #endregion
+
+#region Join, GroupJoin
+
+var result = students.Join(groups, s => s.GroupId, 
+                                    g => g.Id, 
+                                    s=>s.GroupId,
+                                    (s, g) => new
+                                    {
+                                        FirstName = s.FirstName,
+                                        LastName = s.LastName,
+                                        Age = s.Age,
+                                        GroupName = g.Name,
+                                    }).ToList();
+foreach (var item in result)
+{
+    Console.WriteLine($"{item.FirstName} {item.LastName} {item.Age} - {item.GroupName}");
+}
+
+#endregion
