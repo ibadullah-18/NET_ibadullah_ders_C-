@@ -59,7 +59,10 @@ vacib qayda:
    2. Exception-un defaut constructoru olmalidir
    3. Message propertisini teyin elemek ucun constructor olmalidir
    4. Inner exceptionlari handle etmek ucun overlod olmus constructor olmalidi
+   5. Tipi riazisasiya elemek ucun Exception sinifinden miras almalıdır
 */
+
+using System.Runtime.Serialization;
 
 [Serializable]
 class MyExceptions : ApplicationException
@@ -70,6 +73,10 @@ class MyExceptions : ApplicationException
 
     public MyExceptions(string? message, Exception? innerException) 
         : base(message, innerException)
+    {
+    }
+
+    protected MyExceptions(SerializationInfo info, StreamingContext context) : base(info, context)
     {
     }
 }
