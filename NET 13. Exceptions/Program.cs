@@ -7,26 +7,26 @@
 */
 
 
-int numb1 = 3;
-int numb2 = 0;
-int result = default;
+//int numb1 = 3;
+//int numb2 = 0;
+//int result = default;
 
-try
-{
-    result = numb1 / numb2;
-    Console.WriteLine(result);
-}
+//try
+//{
+//    result = numb1 / numb2;
+//    Console.WriteLine(result);
+//}
 
-catch (DivideByZeroException ex) // sifra boluneme exceptionsu
-{
-    Console.WriteLine("Catch in Main - DivideByZeroException");
-    Console.WriteLine();
-    Console.WriteLine($"Message - {ex.Message}"); // Message ne oldugunu soyluyor
-    Console.WriteLine();
-    Console.WriteLine($"StackTrace - {ex.StackTrace}"); // StackTrace, nerede oldugunu soyluyor
-    Console.WriteLine();
-    Console.WriteLine($"Target site - {ex.TargetSite}"); // TargetSite, hangi metot oldugunu soyluyor
-}
+//catch (DivideByZeroException ex) // sifra boluneme exceptionsu
+//{
+//    Console.WriteLine("Catch in Main - DivideByZeroException");
+//    Console.WriteLine();
+//    Console.WriteLine($"Message - {ex.Message}"); // Message ne oldugunu soyluyor
+//    Console.WriteLine();
+//    Console.WriteLine($"StackTrace - {ex.StackTrace}"); // StackTrace, nerede oldugunu soyluyor
+//    Console.WriteLine();
+//    Console.WriteLine($"Target site - {ex.TargetSite}"); // TargetSite, hangi metot oldugunu soyluyor
+//}
 //catch (Exception ex)
 //{
 //    Console.WriteLine("Catch in Main - DivideByZeroException");
@@ -43,12 +43,35 @@ catch (DivideByZeroException ex) // sifra boluneme exceptionsu
 //    Console.WriteLine("Catch in Main - Any exception");
 
 //}
-finally
+//finally
+//{
+//    Console.ForegroundColor = ConsoleColor.Red;
+//    Console.WriteLine("assalamu aleykum");
+//}
+
+// oz exceptions yaradmaq
+/*
+vacib olmayan qayda:
+    isdifadeci terefinnen yaradilan excetionlar 
+    ApplicationException sinifinden miras almalidir
+vacib qayda:
+   1. Exception ucun [Serializable] atributu tetbiq olunmalidir
+   2. Exception-un defaut constructoru olmalidir
+   3. Message propertisini teyin elemek ucun constructor olmalidir
+   4. Inner exceptionlari handle etmek ucun overlod olmus constructor olmalidi
+*/
+
+[Serializable]
+class MyExceptions : ApplicationException
 {
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("assalamu aleykum");
+    public MyExceptions(){ }
+
+    public MyExceptions(string? message) : base(message){ }
+
+    public MyExceptions(string? message, Exception? innerException) 
+        : base(message, innerException)
+    {
+    }
 }
-
-
 
 
