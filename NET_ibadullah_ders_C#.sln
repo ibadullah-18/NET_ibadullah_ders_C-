@@ -95,6 +95,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 13", "NET 13", "{DE0062
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 13. Garbage collector", "NET 13. Garbage collector\NET 13. Garbage collector.csproj", "{5B0013A7-9C3F-4BBB-9246-A3F3251C6E18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 13. Exceptions", "NET 13. Exceptions\NET 13. Exceptions.csproj", "{5D277916-E0E4-4878-8087-9D1053451870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{5B0013A7-9C3F-4BBB-9246-A3F3251C6E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0013A7-9C3F-4BBB-9246-A3F3251C6E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0013A7-9C3F-4BBB-9246-A3F3251C6E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D277916-E0E4-4878-8087-9D1053451870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D277916-E0E4-4878-8087-9D1053451870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D277916-E0E4-4878-8087-9D1053451870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D277916-E0E4-4878-8087-9D1053451870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -271,6 +277,7 @@ Global
 		{3E57342A-6EEF-449C-B7DA-7F6CC36A2156} = {2E040E80-73C2-44CA-9F5A-E5B6D84515E8}
 		{8EE9832F-846F-4001-9A6F-954EA8DC3315} = {2E040E80-73C2-44CA-9F5A-E5B6D84515E8}
 		{5B0013A7-9C3F-4BBB-9246-A3F3251C6E18} = {DE006297-53E8-40E2-BF1C-98B6880FACD3}
+		{5D277916-E0E4-4878-8087-9D1053451870} = {DE006297-53E8-40E2-BF1C-98B6880FACD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {984A0467-54D1-48D3-890C-C809A8B2BB4E}
