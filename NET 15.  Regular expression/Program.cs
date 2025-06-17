@@ -3,7 +3,7 @@
 using System.Text.RegularExpressions;
 
 string pass = "Ibo!2007";
-string mail = "Husey_iz52@itstep.edu.az";
+string mail = "Husey_iz52@gmail.com";
 #region Classic Way
 
 //bool lower = false;
@@ -48,9 +48,9 @@ string mail = "Husey_iz52@itstep.edu.az";
 $       - sblon axirinda olmalidir
 */
 
-string passwordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$";
-Regex regex = new(passwordPattern);
-Console.WriteLine(regex.IsMatch(pass));
+//string passwordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$";
+//Regex regex = new(passwordPattern);
+//Console.WriteLine(regex.IsMatch(pass));
 /*
  
 (?=.*[a-z]) → Ən azı bir kiçik hərf olmalıdır.
@@ -61,5 +61,27 @@ Console.WriteLine(regex.IsMatch(pass));
 
 .{8,} → Ümumi uzunluğu ən az 8 simvol olmalıdır.
 
+(?=.*[\W_])	Ən az bir simvol və ya alt xətt _
+
+https://regex101.com/
 */
+
+//Regex mailPatten = new Regex(@"^[a-zA-Z0-9._%+-]+@gmail\.com$");
+//Console.WriteLine(mailPatten.IsMatch(mail));
+/*
+Hissə	Mənası
+
+^	İfadənin başlanğıcını göstərir. Yəni e-mail bununla başlamalıdır.
+
+[a-zA-Z0-9._%+-]+	İstifadəçi adının hissəsi: ən azı bir simvol olmalıdır və aşağıdakılara icazə verilir:
+    - Kiçik və böyük hərflər (a-z, A-Z)
+    - Rəqəmlər (0-9)
+    - Nöqtə (.), Alt xətt (_), Faiz (%), Artı (+), Təyin edici (-)
+
+@gmail\.com	@gmail.com hissəsi olmalıdır. . nöqtəsini Regex-də xüsusi simvol kimi tanıdığı üçün \. ilə yazılır.
+
+$	İfadənin sonunu göstərir. Yəni e-mail @gmail.com ilə bitməlidir. 
+*/
+
 #endregion
+
