@@ -121,19 +121,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 14. StreamWriter, Strea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 17", "NET 17", "{E0A02F08-BF05-4091-8985-6E4B11A05E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 17. SOLID 2. Open-Closed", "NET 17. SLID 2. Open-Closed\NET 17. SOLID 2. Open-Closed.csproj", "{D4055CAC-33A7-43E8-A588-F3A55F3FE653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 17. SOLID 2. Open-Closed", "NET 17. SLID 2. Open-Closed\NET 17. SOLID 2. Open-Closed.csproj", "{D4055CAC-33A7-43E8-A588-F3A55F3FE653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 17. SOLID 3.  Liskov Substitutoin", "NET 17. SOLID 3.  Liskov Substitutoin\NET 17. SOLID 3.  Liskov Substitutoin.csproj", "{DA6C2EE1-D1C6-43CE-91B0-69F054259FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 17. SOLID 3.  Liskov Substitutoin", "NET 17. SOLID 3.  Liskov Substitutoin\NET 17. SOLID 3.  Liskov Substitutoin.csproj", "{DA6C2EE1-D1C6-43CE-91B0-69F054259FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 17. SOLID 4.  Interface segregation", "NET 17. SOLID 4.  Interface segregation\NET 17. SOLID 4.  Interface segregation.csproj", "{70BD39FE-8D61-4656-8957-6E984AD2DC96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 17. SOLID 4.  Interface segregation", "NET 17. SOLID 4.  Interface segregation\NET 17. SOLID 4.  Interface segregation.csproj", "{70BD39FE-8D61-4656-8957-6E984AD2DC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 17. SOLID Dependency inversion", "NET 17. SOLID Dependency inversion\NET 17. SOLID Dependency inversion.csproj", "{A65BABC4-B2C5-4176-8462-82710BF568E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 17. SOLID Dependency inversion", "NET 17. SOLID Dependency inversion\NET 17. SOLID Dependency inversion.csproj", "{A65BABC4-B2C5-4176-8462-82710BF568E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 17.  Singleton pattern", "NET 17.  Singleton pattern\NET 17.  Singleton pattern.csproj", "{856F761B-D891-493E-AB83-BA8C0406764A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 17.  Singleton pattern", "NET 17.  Singleton pattern\NET 17.  Singleton pattern.csproj", "{856F761B-D891-493E-AB83-BA8C0406764A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 18", "NET 18", "{6F2DAE9A-B4F1-4EB7-A005-A0AC8D317B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 18. Builder", "NET 18. Builder\NET 18. Builder.csproj", "{A9D9FD62-AE83-4492-A83B-290DFDC12F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 18. Builder", "NET 18. Builder\NET 18. Builder.csproj", "{A9D9FD62-AE83-4492-A83B-290DFDC12F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET 19", "NET 19", "{A83B0577-12A9-4CFA-8677-3E4A4A2E9208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 19. Adapter", "NET 19. Adapter\NET 19. Adapter.csproj", "{D6B807BA-C19E-4595-ACF4-499FF4488F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +337,10 @@ Global
 		{A9D9FD62-AE83-4492-A83B-290DFDC12F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D9FD62-AE83-4492-A83B-290DFDC12F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D9FD62-AE83-4492-A83B-290DFDC12F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B807BA-C19E-4595-ACF4-499FF4488F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B807BA-C19E-4595-ACF4-499FF4488F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B807BA-C19E-4595-ACF4-499FF4488F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B807BA-C19E-4595-ACF4-499FF4488F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -386,6 +394,7 @@ Global
 		{A65BABC4-B2C5-4176-8462-82710BF568E0} = {E0A02F08-BF05-4091-8985-6E4B11A05E03}
 		{856F761B-D891-493E-AB83-BA8C0406764A} = {E0A02F08-BF05-4091-8985-6E4B11A05E03}
 		{A9D9FD62-AE83-4492-A83B-290DFDC12F74} = {6F2DAE9A-B4F1-4EB7-A005-A0AC8D317B02}
+		{D6B807BA-C19E-4595-ACF4-499FF4488F0F} = {A83B0577-12A9-4CFA-8677-3E4A4A2E9208}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {984A0467-54D1-48D3-890C-C809A8B2BB4E}
